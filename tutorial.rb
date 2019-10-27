@@ -157,4 +157,30 @@ Comment line 2
 #  puts "type error."
 #end
 
+## def class
+## NOTE: @attr = self.attr if defined in attr_accessor
+#class Book
+#    attr_accessor :title, :author, :pages
+#
+#    def initialize(title, author, pages)
+#      self.title = title
+#      self.author = author
+#      @pages = pages
+#    end
+#
+#    def desc
+#      puts "Book.title: "+self.title, "Book.author: "+ self.author, "Book.pages: "+self.pages.to_s
+#    end
+#end
+#
+## instance create init
+#b1 = Book.new
+#b1.title = "harry"
+#b1.author = "alice"
+#b1.pages = 100
+#
+## call method
+#b1.desc
 
+#b2 = Book.new("book2", "author2", 1020)
+#b2.desc
