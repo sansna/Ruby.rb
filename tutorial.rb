@@ -127,3 +127,34 @@ Comment line 2
 #)
 #puts file.read
 #file.close()
+
+# Rescue
+#begin
+#    num = 10/0
+#rescue
+#    puts "error"
+#end
+
+# Rescue 2
+#dict={
+#  "hey" => "there"
+#}
+#list = [1,2,3,4]
+#begin
+#  # rasie zerodivisionerror
+#  num=10/0
+#  # raise keyerror
+#  dict.fetch("nothing")
+#  # no error raised
+#  puts dict["nonexist"]
+#  # raise type error
+#  puts list["string"]
+#rescue ZeroDivisionError => e
+#  puts e
+#rescue KeyError
+#  puts "key error !!"
+#rescue TypeError
+#  puts "type error."
+#end
+
+
